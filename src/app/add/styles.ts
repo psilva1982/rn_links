@@ -1,0 +1,31 @@
+import { colors } from "@/styles/colors";
+import { StyleSheet } from "react-native";
+
+export const styles = StyleSheet.create({
+    container: {
+        flex: 1,
+        paddingTop: 32,
+    },
+    header: {
+        paddingHorizontal: 24,
+        width: "100%",
+        flexDirection: "row",
+        justifyContent: "space-between",
+        marginBottom: 32,     
+    },
+    title: {
+        color: colors.gray[200],
+        fontSize: 22,
+        fontWeight: 600
+    },
+    label: {
+        color: colors.gray[400],
+        fontSize: 14,
+        paddingHorizontal: 24,
+        paddingBottom: 6
+    },
+    form: {
+        padding: 24,
+        gap: 10
+    }
+})
