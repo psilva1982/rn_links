@@ -1,4 +1,7 @@
 # 📱 App Description:
+
+![screenshot](screenshot.png)
+
 A mobile app built with **React Native** that helps you organize your favorite links effortlessly. With this app, you can:
 
 - Save links: Add links with custom names and organize them into categories.
